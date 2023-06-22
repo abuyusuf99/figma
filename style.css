@@ -1,0 +1,294 @@
+body{
+    font-family: "Montserrat";
+}
+.zagol {
+    display: flex;
+    height: 116px;
+    background-color: #FAFAFA;
+    align-items: center;
+    justify-content: space-between;
+   
+
+   
+}
+
+.log {
+    margin-left: 80px;
+    
+}
+.knopki {
+    
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.but a, .but1 a, .but2 a, .but3 a{
+    color: #231F20;
+    width: 20%;
+    text-decoration: none;
+
+    
+
+}
+.butt {
+    margin-right: 59px;
+    border: 2px solid #F7941E;
+    color: #F7941E;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 6px;
+    width: 150px;
+    height: 44px;
+}
+.blok1{
+display: flex;
+/* Общий блок */
+}
+.podblok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F2;
+    /* height: 500px; */
+    width: 50%;
+/* Блок текста */
+    
+}
+.podblok2 img{
+    width: 100%;
+    height: 100%;
+}
+.podblok2{
+
+ 
+    width: 50%;
+    /* Блок фотографии */
+}
+.textblok{
+    /* display: flex;
+    flex-direction: column; */
+    /* margin: 30%; */
+width: 433px;
+height: 411px;
+
+}
+.button{
+    background-color: #F7941E;
+color: #FFFFFF;
+width: 200px;
+height: 60px;
+border-radius: 5px;
+font-size: 18px;
+margin-top: 50px;
+border-style: none;
+
+
+}
+.p{
+font-size: 20px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-weight: 400;
+
+}
+.textblok h1{
+    font-size: 56px;
+
+}
+.blok11{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button1{
+    background-color: transparent;
+    color: #F7941E;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 50px;
+    /* border-style: none; */
+    border: 1px solid #F7941E;
+}
+.container{
+    display: flex;
+    justify-content: center;
+width: 100%;
+}
+.text2{
+    
+}
+.textgifts {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 96px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+.cards {
+    display: flex;
+   
+   
+}
+ .comment h5{
+    margin-top: 24px;
+    margin-bottom: 74px;
+ }
+ .comment {
+    margin-left: 24px;
+ }
+ .card {
+    margin-right: 20px;
+    border: none;
+   margin-bottom: 137px;
+    box-shadow: 0px 10px 15px;
+    
+ }
+ .container2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #F7941E;
+    height: 240px;
+    
+
+ }
+ .lev{
+    width: 50%;
+
+ }
+ .prav{
+    width: 50%;
+    display: flex;
+ 
+    justify-content: space-around
+ }
+ .prav p{
+    background-color: #231F20;
+    color: #F1F1F2;
+    width: 220px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+
+ }
+ .prav :nth-child(2){
+    margin-right: 235px;
+    background-color: #F7941E;
+    border: 1px solid black;
+    color: black;
+ }
+ .container3{
+    display: flex;
+    margin-top: 88px;
+ margin-bottom: 71px;
+    
+ }
+ .textzag{
+    width: 100%;
+    text-align: center;
+ }
+ .textzag :nth-child(1){
+    font-size: 32px;
+    font-weight: 600;
+ }
+ .textzag :nth-child(2){
+    font-size: 18px;
+ }
+.rod{
+    display: flex;
+    background-color: #231F20;
+    color: #FFFFFF;
+    width: 1170px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+}
+.textph{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-left: 79px;
+}
+.podcontainer5{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+
+}
+.container5{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+.konectext{
+    width: 570px ;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: left 30px;
+}
+.konectext h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.konectext p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.container6{
+    display: flex;
+    justify-content: center;
+    margin-top: 106px;
+}
+.logot{
+    display: flex;
+    /* margin-right: 150px; */
+    border-bottom: 1px solid black;
+
+}
+.znachki a{
+    margin-right: 50px;
+}
+/* .znachki1 a{
+    margin-right: 81px;
+
+}
+.znachki1{
+    margin-left: 141px;
+}
+.znachki{
+    margin-right: 141px;
+} */
+.znachki a {
+    margin-left: 40px;
+}
+.znachki{
+    margin-bottom: 43px;
+}
+.tex{
+    color: #231F20;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container7{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    text-align: center;
+}
+.podkonectext{
+    margin-top: 72px;
+}
+.More{
+    color: black;
+    text-decoration: none;
+}
