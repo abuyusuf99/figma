@@ -18,7 +18,7 @@ body{
 }
 .knopki {
     
-    width: 30%;
+    width: 331px;
     display: flex;
     justify-content: space-between;
 
@@ -163,8 +163,7 @@ margin-top: 96px;
  .prav{
     width: 50%;
     display: flex;
- 
-    justify-content: space-around
+
  }
  .prav p{
     background-color: #231F20;
@@ -230,7 +229,7 @@ margin-top: 40px;
 }
 .konectext{
     width: 570px ;
-    box-sizing: border-box;
+    /* box-sizing: border-box */
     padding: 30px;
     margin: left 30px;
 }
@@ -292,4 +291,119 @@ margin-top: 40px;
 }
 .photo1 a{
     margin-right: 24px;
+}
+@media(max-width: 768px){
+header{
+    max-width: 100%;
+}
+.main{
+    max-width: 100%;
+}
+.footer{
+    max-width: 100%;
+}
+    .blok11{
+    /* display: flex; */
+
+    flex-direction: column;
+    background-color: #F1F1F2 ;
+    align-items: center;
+    /* justify-content: center; */
+    /* width: 350px; */
+}
+.blok1{
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F1F2 ;
+}
+.container2{
+    flex-wrap: wrap;
+}
+/* .button{
+    display: flex;
+    justify-content: center;
+} */
+.konectext{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.knopki a{
+    margin-left: 20px;
+    font-size: 10px;
+}
+.cards{
+    flex-wrap: wrap;
+   
+}
+.flex{
+
+ margin-bottom: 30px;
+
+}
+.rod{
+flex-direction: column;
+
+}
+.card{
+margin: auto;
+margin-top: 30px;
+
+}
+.textblok h1 {
+    font-size: 25px;
+}
+.log{
+margin:  0px;
+margin: auto;
+}
+.butt{
+    margin: 0px;
+    width: 100px;
+}
+.knopki{
+ display: flex;
+ justify-content: space-evenly;
+}
+.textgifts{
+    text-align: center;
+}
+.container2{
+    flex-direction: column;
+    height: auto;
+
+}
+.prav{
+margin: 0px;
+}
+.konectext{
+ display: flex;
+ justify-content: center;
+flex-direction: column;
+
+}
+.prav{
+display:  block;
+
+}
+.rod img {
+    max-width: 374px;
+}
+.prav p{
+    width: 181px;
+}
+.lev{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.logot{
+    display: block;
+}
+.surt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
 }
